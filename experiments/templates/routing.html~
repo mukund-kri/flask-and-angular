@@ -1,0 +1,15 @@
+<html ng-app="quizApp">
+  <head>
+    <title>Hello Angular</title>
+  </head>
+
+  <body>
+    <div ng-view>
+    </div>
+    
+    <script src="/common/static/lib/angular/angular.min.js"></script>
+    <script src="/common/static/lib/angular/angular-route.min.js"></script>
+    <script src="/experiments/static/routing/routes.js"></script>
+    <script src="/experiments/static/routing/controllers.js"></script>
+  </body>
+</html>

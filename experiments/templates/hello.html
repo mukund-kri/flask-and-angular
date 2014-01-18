@@ -1,0 +1,15 @@
+<html ng-app="main">
+  <head>
+    <title>Hello Angular</title>
+    
+    <script src="/common/static/lib/angular/angular.min.js"></script>
+    <script src="/experiments/static/hello/controller.js"></script>
+  </head>
+
+  <body>
+    <div ng-controller="HelloController">
+      <input ng-model="greeting.text" />
+      <p>{| greeting.text |}</p>
+    </div>
+  </body>
+</html>

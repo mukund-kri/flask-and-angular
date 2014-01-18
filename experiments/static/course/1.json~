@@ -1,0 +1,6 @@
+{
+    lessons: [
+	{name: "Lesson One"},
+	{name: "Lesson Two"}
+    ]
+}
